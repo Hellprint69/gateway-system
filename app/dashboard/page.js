@@ -3,8 +3,8 @@ import { useState } from "react";
 import { createClient } from "@supabase/supabase-js";
 
 // Ganti dengan kredensial Supabase kamu sendiri
-const SUPABASE_URL = "https://xyz.supabase.co";
-const SUPABASE_ANON_KEY = "ey..." ;
+const SUPABASE_URL = "https://minnxsggeqyypnzppjdk.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1pbm54c2dnZXF5eXBuenBwamRrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgwMDUxMDgsImV4cCI6MjA5MzU4MTEwOH0.DmjA-THOVKD9dovF-Eea1ofToc8mrCB9TUrOEzuUZvY" ;
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 export default function DashboardLink() {
